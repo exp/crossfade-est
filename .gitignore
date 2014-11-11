@@ -22,3 +22,19 @@ _testmain.go
 *.exe
 *.test
 *.prof
+
+# vim-go installed tools
+src/code.google.com/p/rog-go/
+src/golang.org/x/tools/
+src/code.google.com/p/goplan9/
+src/code.google.com/p/go.tools/
+src/github.com/golang/lint
+src/github.com/jstemmer/gotags
+src/github.com/kisielk/errcheck
+src/github.com/kisielk/gotool
+src/github.com/kr/fs
+src/github.com/nsf/gocode
+src/github.com/tools/godep
+
+# Don't stage any binaries
+bin/*
